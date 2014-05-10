@@ -4,7 +4,7 @@
 $ rvm use 2.1.1 --default
 ```
 
-## Install
+## Installing Rubies
 ```bash
 $ rvm list known
 $ rvm install 1.9.3
@@ -14,17 +14,17 @@ $ rvm install 1.9.3
 $ rvm install ruby-1.8.7-p160
 ```
 
-## Copying single gemsets to new ruby
+### Copying single gemsets to new ruby
 ```bash
 $ rvm gemset copy 1.8.6-p420@myapplication rbx-1.2.3@myapplication
 ```
 
-## Manual migration of all gemsets
+### Manual migration of all gemsets
 ```bash
 $ rvm migrate 1.8.6-p420 rbx-1.2.3
 ```
 
-## Updating all gemsets
+### Updating all gemsets
 ```bash
 $ rvm gemset update
 ```
